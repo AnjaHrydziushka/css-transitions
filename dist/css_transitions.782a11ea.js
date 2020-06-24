@@ -29202,6 +29202,8 @@ try {
 
   var _classnames = _interopRequireDefault(require("classnames"));
 
+  var _FullscreenMenu = _interopRequireDefault(require("./components/FullscreenMenu"));
+
   var _jsxFileName = "/Users/Anja/Code/workshops/animation/css_transitions/src/App.js",
       _s = $RefreshSig$();
 
@@ -29219,17 +29221,24 @@ try {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
       }
-    }, /*#__PURE__*/_react.default.createElement("div", {
+    }, /*#__PURE__*/_react.default.createElement(_FullscreenMenu.default, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/_react.default.createElement("div", {
       className: (0, _classnames.default)("searchbar", {
         "is-open": open
       }),
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 14,
         columnNumber: 13
       }
     }, /*#__PURE__*/_react.default.createElement("input", {
@@ -29239,7 +29248,7 @@ try {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 19,
         columnNumber: 9
       }
     }), /*#__PURE__*/_react.default.createElement("div", {
@@ -29247,7 +29256,7 @@ try {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 9
       }
     }, /*#__PURE__*/_react.default.createElement("div", {
@@ -29255,63 +29264,63 @@ try {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 11
       }
     }, /*#__PURE__*/_react.default.createElement("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 13
       }
     }, /*#__PURE__*/_react.default.createElement("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 15
       }
     }, /*#__PURE__*/_react.default.createElement("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 17
       }
     }, "re"), "al life CSS transition"), /*#__PURE__*/_react.default.createElement("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 15
       }
     }, /*#__PURE__*/_react.default.createElement("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 17
       }
     }, "Re"), "act hooks"), /*#__PURE__*/_react.default.createElement("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 33,
         columnNumber: 15
       }
     }, "pa", /*#__PURE__*/_react.default.createElement("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 34,
         columnNumber: 19
       }
     }, "re"), "ntheses"))))), /*#__PURE__*/_react.default.createElement("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 40,
         columnNumber: 7
       }
     }, "Use the searchbar above"));
@@ -29329,7 +29338,7 @@ try {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"c3469d175e6ab91a6ebac2096f1b2459","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"304bfcdf97c182c258933a329c4fc1cd","classnames":"82a7ba5c3518b9ae78c0a43545611996"}],"304bfcdf97c182c258933a329c4fc1cd":[function(require,module,exports) {
+},{"react":"c3469d175e6ab91a6ebac2096f1b2459","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"304bfcdf97c182c258933a329c4fc1cd","classnames":"82a7ba5c3518b9ae78c0a43545611996","./components/FullscreenMenu":"828ee1b6836b3366d39f04e8a57da6f3"}],"304bfcdf97c182c258933a329c4fc1cd":[function(require,module,exports) {
 "use strict";
 
 var Refresh = require('react-refresh/runtime');
@@ -29574,6 +29583,155 @@ var define;
     window.classNames = classNames;
   }
 })();
-},{}]},{},["64c1770b35b04eb343009bb27a752262","92e03651fea74b97ce899bcdf41c11da","b0025b4f324d77554cb79cd8dfbefcdb"], null)
+},{}],"828ee1b6836b3366d39f04e8a57da6f3":[function(require,module,exports) {
+"use strict";
+
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = FullscreenMenu;
+
+  var _react = _interopRequireWildcard(require("react"));
+
+  require("./FullscreenMenu.css");
+
+  var _jsxFileName = "/Users/Anja/Code/workshops/animation/css_transitions/src/components/FullscreenMenu.jsx",
+      _s = $RefreshSig$();
+
+  function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+  function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+  function FullscreenMenu() {
+    _s();
+
+    const [open, setOpen] = (0, _react.useState)(false);
+    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, open && /*#__PURE__*/_react.default.createElement("div", {
+      className: "FullscreenMenu",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 16
+      }
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 7
+      }
+    }, ["Home", "About us", "Portfolio", "Contact"].map((text, i) => {
+      return /*#__PURE__*/_react.default.createElement("li", {
+        key: i,
+        style: {
+          animationDelay: `${100 * i}ms`
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_react.default.createElement("a", {
+        href: "#",
+        onClick: e => {
+          e.preventDefault();
+          setOpen(false);
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 19
+        }
+      }, text));
+    }))), /*#__PURE__*/_react.default.createElement("button", {
+      className: "FullscreenMenuToggler",
+      style: {
+        color: open ? "white" : "black"
+      },
+      onClick: () => setOpen(!open),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/_react.default.createElement("svg", {
+      width: "2rem",
+      height: "2rem",
+      viewBox: "0 0 24 24",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/_react.default.createElement("g", {
+      stroke: "currentColor",
+      strokeWidth: 2,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/_react.default.createElement("line", {
+      x1: "0",
+      y1: "4",
+      x2: "24",
+      y2: "4",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/_react.default.createElement("line", {
+      x1: "0",
+      y1: "12",
+      x2: "24",
+      y2: "12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/_react.default.createElement("line", {
+      x1: "0",
+      y1: "20",
+      x2: "24",
+      y2: "20",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 13
+      }
+    })))));
+  }
+
+  _s(FullscreenMenu, "xG1TONbKtDWtdOTrXaTAsNhPg/Q=");
+
+  _c = FullscreenMenu;
+
+  var _c;
+
+  $RefreshReg$(_c, "FullscreenMenu");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"c3469d175e6ab91a6ebac2096f1b2459","./FullscreenMenu.css":"8e5b25ae1e43f166c4ea15bfcfc65e07","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"304bfcdf97c182c258933a329c4fc1cd"}],"8e5b25ae1e43f166c4ea15bfcfc65e07":[function() {},{}]},{},["64c1770b35b04eb343009bb27a752262","92e03651fea74b97ce899bcdf41c11da","b0025b4f324d77554cb79cd8dfbefcdb"], null)
 
 //# sourceMappingURL=css_transitions.782a11ea.js.map
